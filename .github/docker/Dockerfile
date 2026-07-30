@@ -1,4 +1,4 @@
-ARG ALPINE_VERSION=3.24
+ARG ALPINE_VERSION=3.20
 FROM alpine:${ALPINE_VERSION}
 # Setup document root
 WORKDIR /app/www
